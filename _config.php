@@ -11,8 +11,12 @@ header('Content-Type: text/html; charset=utf-8');
  * Os dados da conexão estão em "/_config.ini".
  */
 
-// Armazena o arquivo "/_config.ini" em um array "$ini"...
-$ini = parse_ini_file($_SERVER['DOCUMENT_ROOT'] . '/_config.ini', true);
+$db = array(
+    'hostname' => 'sql102.epizy.com',
+    'username' => 'epiz_31774750',
+    'password' => '8v1PCTjm8v',
+    'database' => 'epiz_31774750_mindexplorer'
+);
 
 // Itera cada chave do array...
 foreach ($ini as $key => $val) :
