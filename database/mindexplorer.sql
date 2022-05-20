@@ -78,7 +78,7 @@ INSERT INTO about(
 )VALUES
 (
     'Natan dos Santos Coelho',
-    '/usuário_img/6.jpeg',
+    '/usuário_img/natan2.jpg',
     'Natancoelho@gmail.com',
     '23/07/2001',
     '(21) 99768-0067',
@@ -94,7 +94,7 @@ INSERT INTO about(
 ),
 (
     'Sandro Cesar Dantas Pereira',
-    '/usuário_img/2.jpeg',
+    '/usuário_img/sandro2.jpg',
     'sandropereira@gmail,com',
     '30/09/1991',
     '(21) 99903-5770',
